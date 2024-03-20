@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    echo 'Running the C++ program...'
+                    ekko 'Running the C++ program...'
                     sh "./pes1ug21cs366-1"
                 }
             }
